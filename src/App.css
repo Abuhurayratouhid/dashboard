@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+#p-btn{
+  background-color: blue;
+  padding: 5px 10px;
+  margin: 7px;
+  color: aliceblue;
+}
+.active{
+  background-color: orange;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
